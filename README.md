@@ -6,7 +6,10 @@ This is a progressive web app supplys the user with a simple text editor that ma
 
 ## Screenshots
 
+### Live Deployment
 ![LiveDeployment](/client/src/images/livedeployment.png)
+
+### Javascript Files
 ![Webpack1](/client/src/images/webpack1.png)
 ![Webpack2](/client/src/images/webpack2.png)
 ![Database.js](/client/src/images/db.js.png)
