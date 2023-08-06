@@ -18,7 +18,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+
       new HtmlWebpackPlugin({
         template: './index.html',
         title: ''
@@ -30,11 +30,13 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
-        name: ,
-        short_name: ,
-        description: ,
-        background_color: ,
-        theme_color: ,
+        fingerprints: false,
+        inject: true,
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
+        description: 'A progressive web app text editor!',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
         icons: [
